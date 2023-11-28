@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aretes Biodiversos</title>
+    <title>Sustrato Artesanal</title>
     <!-- Importación de fuente Poppins de Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,87 +12,172 @@
     <!-- Conexión con hoja de estilos CSS -->
     <link rel="stylesheet" href="/aretes/styles/styles.css">
 </head>
+
 <body>
     <header class="contenidoPrincipal">
         <!-- -----Creacion de la barra de navegación NavBar----- -->
         <nav class="navbar">
-                <!-- Logo del navBar -->
-                <div class="fotoLogo">
-                    <a href="#">
-                        <img src="/inicio/img/navbarlogo.svg" alt="logo">
-                    </a>
-                </div>
-                 <!-- Fin del Logo del navBar -->
-    
-                 <!-- Links Principales -->
-                 <div class="navbarLinks">
-                    <a class="Link" href="#">inicio</a>
-                    <a class="Link" href="#">aretes</a>
-                    <a class="Link" href="#">agendas</a>
-                    <a class="Link" href="#">pines</a>
-                    <a class="Link" href="#">postales</a>
-                    <a class="Link" href="#">mapas</a>
-                    <a class="Link" href="#">nosotros</a>
-                </div>
-                <!-- Fin de los Links principales -->
-    
-                <!-- Iconos de navegación -->
-                <!-- Importados de FontAwesome -->
-                <div class="iconos">
-                    <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
-                    <i class="fa-regular fa-circle-user" style="color: #ffffff;"></i>
-                    <i class="fa-solid fa-bag-shopping" style="color: #ffffff;"></i>
-                </div>
-                <!-- Fin de iconos de navegación -->
+            <!-- Logo del navBar -->
+            <div class="fotoLogo">
+                <a href="/index.html">
+                    <img src="/inicio/img/navbarlogo.svg" alt="logo">
+                </a>
+            </div>
+            <!-- Fin del Logo del navBar -->
+
+            <!-- Links Principales -->
+            <div class="navbarLinks">
+                <a class="Link" href="/index.html">inicio</a>
+                <a class="Link" href="/aretes/aretes.html">aretes</a>
+                <a class="Link" href="/agendas/agendas.html">agendas</a>
+                <a class="Link" href="/pines/pines.html">pines</a>
+                <a class="Link" href="/postales/postales.html">postales</a>
+                <a class="Link" href="/mapas/mapas.html">mapas</a>
+                <a class="Link" href="/nosotros/nosotros.html">nosotros</a>
+            </div>
+            <!-- Fin de los Links principales -->
+
+            <!-- Iconos de navegación -->
+            <!-- Importados de FontAwesome -->
+            <div class="iconos">
+                <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                <i class="fa-regular fa-circle-user" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-bag-shopping" style="color: #ffffff;"></i>
+            </div>
+            <!-- Fin de iconos de navegación -->
         </nav>
         <!-- ----- Fin de la barra de navegación Navbar ----- -->
-        </header>
-        <main>
-            <section class="productos">
-                <div class="descripcion">
-                    <h2 class="tituloDescripcion">Aretes Biodiversos</h2>
-                    <p class="subtituloDescripcion"> Nuestras creaciones están hechas sobre MDF de 2.5mm / Ilustraciones exclusivas de Sustrato Artesanal
-                        Pintados a mano con acrílico / Tejido a mano con hilo crochet / Herrajes en acero
-                        Capa de resina por ambas caras /  Curados con luz UV </p>
-                </div>
-                <div class="productos">
+    </header>
+    <main>
+        <!-- Seccion de contenido principal de la pagina -->
+        <section class="main">
+            <div class="descripcion">
+                <h2 class="tituloDescripcion">Aretes Biodiversos</h2>
+                <p class="subtituloDescripcion"> Nuestras creaciones están hechas sobre MDF de 2.5mm / Ilustraciones
+                    exclusivas de Sustrato Artesanal
+                    Pintados a mano con acrílico / Tejido a mano con hilo crochet / Herrajes en acero
+                    Capa de resina por ambas caras / Curados con luz UV </p>
+            </div>
+            <!-- Sección de productos a la venta -->
+            <div class="productos">
+                <div class="infoProductos">
                     <h2 class="tituloProducto">Aretes Biodiversos Pequeños</h2>
                     <p class="subtituloProducto"> (3,5 cm / 4 cm de alto)</p>
+                </div>
+                <div class="seccionProductos">
+                    <!-- Tarjeta con producto, imagen, precio -->
                     <div class="tarjeta">
-                        <div class="imagenTarjeta">
-                            <img src="/aretes/img/colibriChillon.png" alt="Colibri Chillon">
-                        </div>
+                        <img src="/aretes/img/colibriChillon.png" alt="Colibri Chillon" class="imagenTarjeta">
                         <div class="infoTarjeta">
                             <h2 class="nombreProducto">Colibrí Chillón</h2>
                             <p class="precioProducto">$30.000 cop</p>
                         </div>
-                        <div class="botonComprar">  
-                            <h2>COMPRAR</h2>
+                        <a href="">
+                            <div class="botonComprar">
+                                <h2>COMPRAR</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="/aretes/img/tortugaCarey.png" alt="Tortuga Carey" class="imagenTarjeta">
+                        <div class="infoTarjeta">
+                            <h2 class="nombreProducto">Tortuga Carey</h2>
+                            <p class="precioProducto">$38.000 cop</p>
                         </div>
+                        <a href="">
+                            <div class="botonComprar">
+                                <h2>COMPRAR</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="/aretes/img/mariposaEleusino.png" alt="Mariposa Eleusino" class="imagenTarjeta">
+                        <div class="infoTarjeta">
+                            <h2 class="nombreProducto">Mariposa Eleusino</h2>
+                            <p class="precioProducto">$30.000 cop</p>
+                        </div>
+                        <a href="">
+                            <div class="botonComprar">
+                                <h2>COMPRAR</h2>
+                            </div>
+                        </a>
                     </div>
                 </div>
-            </section>
-        </main>
-        <footer>
-            <div class="footerContenedor">
-                <div class="footerLogo">
-                    <a href="">
-                        <img src="/aretes/img/footerLogo.png" alt="Logo del Footer">
-                    </a>
+            </div>
+            <!-- Segunda seccion de productos a la venta -->
+            <div class="productos">
+                <div class="infoProductos">
+                    <h2 class="tituloProducto">Aretes Biodiversos Grandes</h2>
+                    <p class="subtituloProducto"> (6,5 cm / 7 cm de alto)</p>
                 </div>
-                <div class="contacto">
-                    <h2>Contactos</h2>
-                    <ul>
-                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a></li>
-                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i>Facebook</a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
-                    </ul>
-    
+                <div class="seccionProductos">
+                    <div class="tarjeta">
+                        <img src="/aretes/img/guacamayaAzul.png" alt="Guacamaya Azul" class="imagenTarjeta">
+                        <div class="infoTarjeta">
+                            <h2 class="nombreProducto">Guacamaya Azul</h2>
+                            <p class="precioProducto">$40.000 cop</p>
+                        </div>
+                        <a href="">
+                            <div class="botonComprar">
+                                <h2>COMPRAR</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="/aretes/img/yubarta.png" alt="Yubarta" class="imagenTarjeta">
+                        <div class="infoTarjeta">
+                            <h2 class="nombreProducto">Yubarta</h2>
+                            <p class="precioProducto">$40.000 cop</p>
+                        </div>
+                        <a href="">
+                            <div class="botonComprar">
+                                <h2>COMPRAR</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="/aretes/img/osoTresDedos.png" alt="Oso de tres dedos" class="imagenTarjeta">
+                        <div class="infoTarjeta">
+                            <h2 class="nombreProducto">Oso de tres dedos</h2>
+                            <p class="precioProducto">$38.000 cop</p>
+                        </div>
+                        <a href="">
+                            <div class="botonComprar">
+                                <h2>COMPRAR</h2>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </footer>
-    
+        </section>
+    </main>
+    <!-- Finaliza la sección principal de la pagina -->
+
+    <!-- Footer de la pagina -->
+    <footer>
+        <div class="footerContenedor">
+            <div class="footerLogo">
+                <a href="/index.html">
+                    <img src="/aretes/img/footerLogo.png" alt="Logo del Footer">
+                </a>
+            </div>
+            <div class="contacto">
+                <h2>Contactos</h2>
+                <ul>
+                    <li><a href="https://api.whatsapp.com/send?phone=%2B573133249532&data=ARCfbc43J9-4ebRlsGscd3b1gxKyFqMO5ojAlm17pXZD8cFsbAkij-tIskVLXn36Sc4PLkD_a3NI1xEV9M-PeyXjQ99AQ_CuxigAd2_txpeNWo0rXB_fkWDtfvNockazE4UfupNTsjRcO1I-_fefijnAPw&source=FB_Page&app=facebook&entry_point=page_cta"
+                            target="_blank"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a></li>
+                    <li><a href="https://www.facebook.com/agendartesanal?mibextid=LQQJ4d" target="_blank"><i
+                                class="fa-brands fa-facebook-f"></i>Facebook</a></li>
+                    <li><a href="https://instagram.com/sustrato_artesanal?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i
+                                class="fa-brands fa-instagram"></i>Instagram</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+
 </body>
 <!-- FontAwesome -->
 <script src="https://kit.fontawesome.com/7ea5c20133.js" crossorigin="anonymous"></script>
+
 </html>

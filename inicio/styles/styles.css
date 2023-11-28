@@ -17,6 +17,7 @@ body{
     padding: 25px 3%;
     width: 100%;
     position: fixed;
+    z-index: 1000;
 }
 .fotoLogo{
     width: 190px;
@@ -80,6 +81,15 @@ body{
 .tarjeta {
     padding: 10px; 
     text-align: center;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+.tarjeta:hover{
+    transform: scale(1.2);
+}
+.tarjeta a{
+    color: #000;
+    text-decoration: none;
 }
 
 .tarjeta img {
